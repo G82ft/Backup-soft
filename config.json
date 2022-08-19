@@ -1,0 +1,45 @@
+{
+  "config": [
+    {
+      "archive": {
+        "name": "archive",
+        "on_start": false,
+        "time": {
+            "%d %b %Y %H:%M:%S": "01 Jan 2000 00:00:00"
+        },
+        "setup": {
+          "from_path": "PATH",
+          "to_path": "PATH"
+        }
+      }
+    },
+    {
+      "archive_and_del": {
+        "name": "archive_&_del",
+        "on_start": true,
+        "time": {
+            "%d %b %Y %H:%M:%S": "01 Jan 2000 00:00:00"
+        },
+        "setup": {
+          "from_path": "PATH",
+          "to_path": "PATH"
+        }
+      }
+    },
+    {
+      "sync": {
+        "name": "sync",
+        "on_start": false,
+        "time": {
+            "%d %b %Y %H:%M:%S": "01 Jan 2000 00:00:00"
+        },
+        "setup": {
+          "paths_to_sync": [
+            "PATH1",
+            "PATH2"
+          ]
+        }
+      }
+    }
+  ]
+}
