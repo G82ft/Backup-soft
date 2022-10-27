@@ -1,6 +1,6 @@
 """Backup soft settings
 
-Made by Leonid (https://github.com/G4m3_80ft)
+Made by Leonid (https://github.com/G4m3-80ft)
 """
 
 import os
